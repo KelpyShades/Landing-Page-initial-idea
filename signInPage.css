@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 26, 255, 0.712);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url(assets/images/back1.jpg);
+}
+.container{
+    border-radius: 25px;
+    background-color: #f2f2f2a9;
+    padding: 50px;
+    width: fit-content;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    right: 50%;
+}
+input{
+    display: block;
+}
+input[type=email] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=password] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=button]{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 240px;
+}
+input[type=button]:hover{
+    background-color: #ccc;
+}
+.links a{
+    display: block;
+    margin: 7px;
+}
+.forgetPassword{
+    text-decoration: none;
+}
+.signUp{
+    text-decoration: none;
+}
